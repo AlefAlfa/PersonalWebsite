@@ -12,16 +12,20 @@
 		{
 			languages: 'Python',
 			frameworks: 'Flask/FastAPI',
-			ml: 'ml-16',
+			ml: 'ml-14',
 			mf: 'mr-14',
 		},
 		{
 			languages: 'Swift',
 			frameworks: 'SwiftUI/Xcode',
-			ml: 'ml-[74px]',
+			ml: 'ml-[67px]',
 			mf: 'mr-12',
 		},
 	];
+  
+  //ml: 'ml-[74px]',
+	//		'mf: 'mr-12',
+
 
 	let skill = skills[0];
 
