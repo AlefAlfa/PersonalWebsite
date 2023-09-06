@@ -80,7 +80,7 @@ export function setupi18n(_locale="de"){
           "title": "Projekte und Kreationen",
           "EmojiMemory": "Emoji-Memory, gebaut mit Svelte und gestaltet mit TailwindCSS",
           "WeatherDashboard": "Wetter-Dashboard, das die Wettervorhersage für jeden Ort anzeigen kann",
-          "BlueCircleTimer": "Minimalistischer Timer der einem dabei hilft die Zeit im Blick zu behlaten",
+          "BlueCircleTimer": "Minimalistischer Timer der einem dabei hilft die Zeit im Blick zu behalten",
           "MyPersonalWebsite": "Persönliche Website auf der ich meine Projekte ausstellen kann"
         },
         "skills": {

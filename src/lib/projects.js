@@ -1,21 +1,5 @@
 export let projects = [
   {
-    id: 1,
-    title: "Emoji Memory",
-    description: "EmojiMemory",
-    tags: ["SvelteKit", "TailwindCSS"],
-    imageUrl: "/projects/memory.png",
-    url: "https://github.com/AlefAlfa/EmojiMemory"
-  },
-  {
-    id: 2,
-    title: "Weather Dashboard",
-    description: "WeatherDashboard",
-    tags: ["SvelteKit", "TailwindCSS"],
-    imageUrl: "/projects/weatherDashboard.png",
-    url: "https://github.com/AlefAlfa/WeatherDashboard"
-  }, 
-  {
     id: 3,
     title: "Blue Circle Timer",
     description: "BlueCircleTimer",
@@ -30,6 +14,22 @@ export let projects = [
     tags: ["SvelteKit", "TailwindCSS"],
     imageUrl: "/projects/myPersonalWebsite.png",
     url: "https://github.com/AlefAlfa/PersonalWebsite"
+  },
+  {
+    id: 1,
+    title: "Emoji Memory",
+    description: "EmojiMemory",
+    tags: ["SvelteKit", "TailwindCSS"],
+    imageUrl: "/projects/memory.png",
+    url: "https://github.com/AlefAlfa/EmojiMemory"
+  },
+  {
+    id: 2,
+    title: "Weather Dashboard",
+    description: "WeatherDashboard",
+    tags: ["SvelteKit", "TailwindCSS"],
+    imageUrl: "/projects/weatherDashboard.png",
+    url: "https://github.com/AlefAlfa/WeatherDashboard"
   }
 ]
 
