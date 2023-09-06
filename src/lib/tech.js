@@ -12,6 +12,7 @@ export let everydayTech = [
 export let pastTech = [
   "/images/icons/FastAPI.png",
   "/images/icons/Figma.png",
+  "/images/icons/Firebase.png",
   "/images/icons/Swift.png",
   "/images/icons/Python.png",
   "/images/icons/MySQL.png",
