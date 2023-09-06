@@ -34,7 +34,8 @@ export function setupi18n(_locale="de"){
           "title": "Projects and Creations",
           "EmojiMemory": "Emoji memeory game buildt with Svelte and styles with TailwindCSS",
           "WeatherDashboard": "Weather dashboard which can show you the weather forcast in a given location",
-          "BlueCircleTimer": "Timer to help you keep track of time"
+          "BlueCircleTimer": "Timer to help you keep track of time",
+          "MyPersonalWebsite": "Personal website where I can share my Projects with the world"
         },
         "skills": {
           "title": "Technologies und Skills",
@@ -79,7 +80,8 @@ export function setupi18n(_locale="de"){
           "title": "Projekte und Kreationen",
           "EmojiMemory": "Emoji-Memory, gebaut mit Svelte und gestaltet mit TailwindCSS",
           "WeatherDashboard": "Wetter-Dashboard, das die Wettervorhersage für jeden Ort anzeigen kann",
-          "BlueCircleTimer": "Minimalistischer Timer der einem dabei hilft die Zeit im Blick zu behlaten"
+          "BlueCircleTimer": "Minimalistischer Timer der einem dabei hilft die Zeit im Blick zu behlaten",
+          "MyPersonalWebsite": "Persönliche Website auf der ich meine Projekte ausstellen kann"
         },
         "skills": {
           "title": "Skills und Technologien",

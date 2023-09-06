@@ -1,5 +1,3 @@
-// don't forget to add descriptions to i18n.js
-
 export let projects = [
   {
     id: 1,
@@ -24,6 +22,16 @@ export let projects = [
     tags: ["Swift", "SwiftUI"],
     imageUrl: "/projects/bluecircle.png",
     url: "https://apps.apple.com/gb/app/blue-circle-end-date-timer/id6446180592"
+  },
+  {
+    id: 4,
+    title: "My Personal Website",
+    description: "MyPersonalWebsite",
+    tags: ["SvelteKit", "TailwindCSS"],
+    imageUrl: "/projects/myPersonalWebsite.png",
+    url: "https://github.com/AlefAlfa/PersonalWebsite"
   }
 ]
+
+// don't forget to add descriptions to i18n.js
 
