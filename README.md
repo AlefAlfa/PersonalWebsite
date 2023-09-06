@@ -1,38 +1,63 @@
-# create-svelte
+# **My Personal Website**
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Welcome to the repository of my personal website, built using **SvelteKit**! Dive in to explore how I've used SvelteKit to craft my digital space.
 
-## Creating a project
+![Screenshot of my site](/screenshot.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## **Features**
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- **Responsive Design**: Built using SvelteKit's capabilities to ensure a seamless experience across all devices.
+- **Portfolio Section**: A show``case of my best projects and experiences.
+- **Contact Me**: A direct link to reach out and get in touch.
+- ... *[Any other SvelteKit-specific or general features you want to highlight]*
 
-## Developing
+## **Getting Started**
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### **Prerequisites**
 
-```bash
-npm run dev
+- **Node.js**: You'll need Node.js to run and build the project. If you haven’t already installed it, you can find it **[here](https://nodejs.org/)**.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### **Setup**
 
-## Building
+1. Clone this repository:
+    
+    ```bash
+    git clone https://github.com/AlefAlfa/PersonalWebsite.git
+    ```
+    
+2. Navigate into the directory:
+    
+    ```bash
+    cd PersonalWebsite
+    ```
+    
+3. Install the required packages using npm:
+    
+    ```
+    npm install
+    ```
+    
+4. Start the local server:
+    
+    ```bash
+    npm run dev
+    ```
+    
+5. Access the website at: **`http://localhost:5174/`** *(This is the default port for SvelteKit, but adjust if you've changed it)*
 
-To create a production version of your app:
+## **Building for Production**
+
+To build the website for production, run:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## **Contributing**
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Although this is primarily a personal project, feedback and suggestions are always welcome. If you have ideas or improvements:
+
+1. Fork this repository
+2. Make your changes and commit them
+3. Open a pull request!
