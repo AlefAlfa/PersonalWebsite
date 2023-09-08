@@ -1,0 +1,27 @@
+[debug] [2023-09-08T06:05:13.647Z] ----------------------------------------------------------------------
+[debug] [2023-09-08T06:05:13.648Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-09-08T06:05:13.648Z] CLI Version:   12.5.2
+[debug] [2023-09-08T06:05:13.648Z] Platform:      darwin
+[debug] [2023-09-08T06:05:13.648Z] Node Version:  v18.16.0
+[debug] [2023-09-08T06:05:13.653Z] Time:          Fri Sep 08 2023 08:05:13 GMT+0200 (Central European Summer Time)
+[debug] [2023-09-08T06:05:13.653Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-08T06:05:13.655Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-08T06:05:13.713Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-08T06:05:13.713Z] > authorizing via signed-in user (lekushalev@gmail.com)
+[debug] [2023-09-08T06:05:13.714Z] [iam] checking project lekushlev-9 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-09-08T06:05:13.714Z] > refreshing access token with scopes: []
+[debug] [2023-09-08T06:05:13.715Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-09-08T06:05:13.715Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-08T06:05:14.142Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-09-08T06:05:14.142Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-08T06:05:14.171Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/lekushlev-9:testIamPermissions [none]
+[debug] [2023-09-08T06:05:14.171Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/lekushlev-9:testIamPermissions x-goog-quota-user=projects/lekushlev-9
+[debug] [2023-09-08T06:05:14.172Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lekushlev-9:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-08T06:05:14.410Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-09-08T06:05:14.411Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-09-08T06:05:15.052Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/lekushlev-9:testIamPermissions 200
+[debug] [2023-09-08T06:05:15.052Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lekushlev-9:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-08T06:05:15.054Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lekushlev-9 [none]
+[debug] [2023-09-08T06:05:15.474Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lekushlev-9 200
+[debug] [2023-09-08T06:05:15.474Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lekushlev-9 {"projectId":"lekushlev-9","projectNumber":"429266820573","displayName":"lekushlev","name":"projects/lekushlev-9","resources":{"hostingSite":"lekushlev-9"},"state":"ACTIVE","etag":"1_e9935d05-8e99-41cd-b999-c04a89aa649a"}

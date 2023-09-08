@@ -11,9 +11,9 @@
 		},
 		{
 			languages: 'Python',
-			frameworks: 'Flask/FastAPI',
+			frameworks: 'ChatGPT/Langchain',
 			ml: 'ml-14',
-			mf: 'mr-14',
+			mf: 'mr-5',
 		},
 		{
 			languages: 'Swift',

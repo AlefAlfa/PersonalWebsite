@@ -22,7 +22,7 @@ export function setupi18n(_locale="de"){
           "experience": {
            "year": "👨‍💻 For the past year I have been dabbling with different software technologies:",
             "ios": "iOS development with Swift and SwiftUI",
-            "api": "Built some APIs with python’s FastAPI and Flask",
+            "api": "Built ChatGPT agents with OpenAI and Langchain",
             "web": "Made a few full stack websites with JavaScript and SvelteKit",
             "aws": "Looked into AWS's services (EC2, RDS, S3, Lambda, etc)",
           },
@@ -68,7 +68,7 @@ export function setupi18n(_locale="de"){
           "experience": {
             "year":"👨‍💻Im letzten Jahr habe ich mich mit verschiedenen Softwaretechnologien beschäftigt:",
             "ios": "iOS-Entwicklung mit Swift und SwiftUI",
-            "api": "APIs mit Pythons FastAPI und Flask erstellt",
+            "api": "ChatGPT Agenten mit OpenAI und Langchain gebaut",
             "web": "Einige Full-Stack-Websites mit JavaScript und SvelteKit erstellt",
             "aws": "Erfahrung mit AWS-Diensten (EC2, RDS, S3, Lambda, usw.) gesammelt",
           },
